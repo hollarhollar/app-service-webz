@@ -12,7 +12,7 @@ variables:
 resources:
   pipelines:
   - pipeline: 'buildPipeline'
-    project: 'AzureTestProject'
+    project: 'app-service-webz'
     source: 'Build pipeline'
     branch: 'main'   
  
