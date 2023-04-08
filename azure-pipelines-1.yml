@@ -4,8 +4,8 @@
 # https://aka.ms/yaml
 
 trigger:
-- true
-
+- 'main'
+- 'release/*'
  
 variables:
   IISWebsiteName: 'AzureTestProject'
